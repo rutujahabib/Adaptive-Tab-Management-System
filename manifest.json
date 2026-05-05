@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Adaptive User-Centric Tab Management",
+  "version": "1.2.0",
+  "description": "Intelligent tab management using Hybrid Scoring Algorithm (HSA) and NLP-based classification for optimized performance",
+  "permissions": [
+    "tabs",
+    "tabGroups",
+    "storage",
+    "alarms",
+    "notifications",
+    "system.memory"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
