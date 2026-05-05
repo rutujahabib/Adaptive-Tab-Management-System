@@ -13,6 +13,6 @@ This project helps manage browser tabs using Hybrid Scoring and NLP to improve p
 (Add your images here)
 
 ## Technologies Used
-- JavaScript / Python
+- JavaScript
 - NLP techniques
 - Browser Extension APIs
