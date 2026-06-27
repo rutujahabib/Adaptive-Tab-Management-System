@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Adaptive User-Centric Tab Management",
-  "version": "1.2.0",
+  "version": "4.2.0",
   "description": "Intelligent tab management using Hybrid Scoring Algorithm (HSA) and NLP-based classification for optimized performance",
   "permissions": [
     "tabs",

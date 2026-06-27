@@ -107,7 +107,7 @@ async function loadGroups() {
           <div class="group-name">${group.title || 'Unnamed Group'}</div>
           <div class="group-count">
             ${group.tabs.length} tab${group.tabs.length !== 1 ? 's' : ''} &nbsp;·&nbsp;
-            <span style="color:#c8ff00">${active} active</span>
+            <span style="color:#0070f3">${active} active</span>
             &nbsp;·&nbsp;
             <span style="color:#f5a623">${sleeping} sleeping</span>
           </div>
